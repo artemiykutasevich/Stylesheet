@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8583D2627FF738000419A33 /* FlatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583D2527FF738000419A33 /* FlatView.swift */; };
 		B85D81A027FCB80000E9F0D4 /* StylesheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85D819F27FCB80000E9F0D4 /* StylesheetApp.swift */; };
 		B85D81A227FCB80000E9F0D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85D81A127FCB80000E9F0D4 /* ContentView.swift */; };
 		B85D81A427FCB80200E9F0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85D81A327FCB80200E9F0D4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8583D2527FF738000419A33 /* FlatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatView.swift; sourceTree = "<group>"; };
 		B85D819C27FCB80000E9F0D4 /* Stylesheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylesheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85D819F27FCB80000E9F0D4 /* StylesheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesheetApp.swift; sourceTree = "<group>"; };
 		B85D81A127FCB80000E9F0D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82CA55C27FF7A0B00F0B135 /* Skeuomorph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Skeuomorph;
+			sourceTree = "<group>";
+		};
+		B8583D2427FF734E00419A33 /* Flat */ = {
+			isa = PBXGroup;
+			children = (
+				B8583D2527FF738000419A33 /* FlatView.swift */,
+			);
+			path = Flat;
+			sourceTree = "<group>";
+		};
 		B85D819327FCB7FF00E9F0D4 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +72,9 @@
 			children = (
 				B85D819F27FCB80000E9F0D4 /* StylesheetApp.swift */,
 				B85D81A127FCB80000E9F0D4 /* ContentView.swift */,
+				B8583D2427FF734E00419A33 /* Flat */,
 				B85D81AD27FCB89400E9F0D4 /* Neumorphism */,
+				B82CA55C27FF7A0B00F0B135 /* Skeuomorph */,
 				B85D81A327FCB80200E9F0D4 /* Assets.xcassets */,
 				B85D81A527FCB80200E9F0D4 /* Preview Content */,
 			);
@@ -151,6 +170,7 @@
 				B85D81A227FCB80000E9F0D4 /* ContentView.swift in Sources */,
 				B85D81AF27FCB8E900E9F0D4 /* NeumorphismView.swift in Sources */,
 				B85D81A027FCB80000E9F0D4 /* StylesheetApp.swift in Sources */,
+				B8583D2627FF738000419A33 /* FlatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
