@@ -23,6 +23,7 @@
 		B85D81A327FCB80200E9F0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B85D81A627FCB80200E9F0D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B85D81AE27FCB8E900E9F0D4 /* NeumorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismView.swift; sourceTree = "<group>"; };
+		B8D855B527FF7D5400F94EEC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,11 +37,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B82CA55C27FF7A0B00F0B135 /* Skeuomorph */ = {
+		B82CA55C27FF7A0B00F0B135 /* Skeuomorphism */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Skeuomorph;
+			path = Skeuomorphism;
 			sourceTree = "<group>";
 		};
 		B8583D2427FF734E00419A33 /* Flat */ = {
@@ -54,6 +55,7 @@
 		B85D819327FCB7FF00E9F0D4 = {
 			isa = PBXGroup;
 			children = (
+				B8D855B527FF7D5400F94EEC /* README.md */,
 				B85D819E27FCB80000E9F0D4 /* Stylesheet */,
 				B85D819D27FCB80000E9F0D4 /* Products */,
 			);
@@ -74,7 +76,7 @@
 				B85D81A127FCB80000E9F0D4 /* ContentView.swift */,
 				B8583D2427FF734E00419A33 /* Flat */,
 				B85D81AD27FCB89400E9F0D4 /* Neumorphism */,
-				B82CA55C27FF7A0B00F0B135 /* Skeuomorph */,
+				B82CA55C27FF7A0B00F0B135 /* Skeuomorphism */,
 				B85D81A327FCB80200E9F0D4 /* Assets.xcassets */,
 				B85D81A527FCB80200E9F0D4 /* Preview Content */,
 			);
